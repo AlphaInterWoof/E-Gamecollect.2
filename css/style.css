@@ -1,0 +1,153 @@
+body {
+    background-image: url(../image/index/Matrix.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+#csgo {
+    background-image: url(../image/csgo/cs_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (min-device-width:650px) and (min-width: 650px) and (max-width: 900px) {
+    #pagecontent {
+        display: flex;
+    }
+    
+    nav {
+        min-width: 200px;
+        
+        order: 1;
+    }
+}
+
+
+@media (min-device-width: 650px) and (min-width: 901px) {
+    .toppmeny {
+        display: flex;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .menuclosed ul.undermeny {
+        display: block;
+
+    }
+    
+    .toppmeny {
+        height: 2em;
+    }
+    
+    .menuclosed {
+        overflow: hidden;
+    }
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 60px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav li {
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav > ul > li  {
+    padding: 0px 10px;
+    overflow: hidden;
+    color: gray;
+    flex:1 1 auto;
+}
+
+nav > ul > li> a {
+    display: block;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+	
+}
+
+.show {
+    overflow: visible;
+}
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: gray;
+}
+
+.mainstart {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: gray;
+	
+}
+
+.yes {
+	position:absolute;
+	top: 370px;
+	left: 30%;
+}
+
+.no {
+	position:absolute;
+	top: 370px;
+	left: 65%;
+	
+}
+
+.csgo {
+    background-color: white;
+    text-align: center;
+	position: absolute;
+	left: 40%;
+}
+
+.img-g {
+	position: absolute;
+	top: 300px;
+	left: 5%;
+	background-color: deepskyblue;
+}
+
+.gallery {
+	position: relative;
+}
+
+#g-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
