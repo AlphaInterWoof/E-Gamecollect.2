@@ -16,10 +16,13 @@ function toggleClass(el, cls) {
   }
 }
 
-function changeigm(e) {
-	var images = document.querySelectorAll("gallery > *")
-	for ()
-	{
-		
-	}
+var imageindex=0;
+
+function changeigm(pm) {
+	var images = document.querySelectorAll(".gallery > *");
+	var n = images.length;
+	images[imageindex % n].style.zIndex=0;
+	imageindex += pm;
+	images[imageindex % n].style.zIndex=1;
+	
 }
