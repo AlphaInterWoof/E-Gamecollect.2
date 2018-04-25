@@ -27,27 +27,23 @@ body {
     }
 }
 
-
-@media (min-device-width: 650px) and (min-width: 901px) {
-    .toppmeny {
-        display: flex;
-        position: relative;
-        z-index: 100;
-    }
-    
-    .menuclosed ul.undermeny {
-        display: block;
-
-    }
-    
-    .toppmeny {
-        height: 2em;
-    }
-    
-    .menuclosed {
-        overflow: hidden;
-    }
+@media (max-width:650px) {
+	#g-pic {
+		height: 100px;
+		width: 100px;
+	}
+	
 }
+
+@media (max-width:400px) {
+	#g-pic {
+		height: 50px;
+		width: 50px;
+	}
+	
+}
+
+
 
 nav {
     position: relative;
@@ -99,8 +95,9 @@ nav a {
 }
 
 
-h1 {
+.title {
     color: white;
+	position: absolute;
 }
 
 h2 {
@@ -129,25 +126,77 @@ h2 {
 }
 
 .csgo {
-    background-color: white;
+    
     text-align: center;
-	position: absolute;
-	left: 40%;
+	
+	
 }
 
 .img-g {
 	position: absolute;
 	top: 300px;
 	left: 5%;
-	background-color: deepskyblue;
+	
 }
 
-.gallery {
-	position: relative;
+.arrow {
+	position: absolute;
+	top: 350px;
+}
+
+.arrow_l {
+	position: absolute;
+	left: -15px;
+	
+		
+}
+
+.arrow_r {
+	position: absolute;
+	left: 340px;
+	
+}
+
+
+#ig1 {
+	position: absolute;
+}
+
+#ig2 {
+	position: absolute;
+}
+
+#ig3 {
+	position: absolute;
 }
 
 #g-video {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+
+
+
+
+@media (min-device-width: 650px) and (min-width: 901px) {
+    .toppmeny {
+        display: flex;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .menuclosed ul.undermeny {
+        display: block;
+
+    }
+    
+    .toppmeny {
+        height: 2em;
+    }
+    
+    .menuclosed {
+        overflow: hidden;
+    }
 }

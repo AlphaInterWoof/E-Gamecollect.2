@@ -16,3 +16,10 @@ function toggleClass(el, cls) {
   }
 }
 
+function changeigm(e) {
+	var images = document.querySelectorAll("gallery > *")
+	for ()
+	{
+		
+	}
+}
