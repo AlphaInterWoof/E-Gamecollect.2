@@ -172,6 +172,7 @@ h2 {
 
 #g-video {
 	position: absolute;
+	z-index: 1;
 	
 }
 
