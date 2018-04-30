@@ -107,22 +107,33 @@ h2 {
 .mainstart {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
     color: gray;
+    left: 5%;
+    width: 50%;
+    text-align: center;
 	
 }
 
 .yes {
 	position:absolute;
 	top: 370px;
-	left: 30%;
+	left: 15%;
 }
 
 .no {
 	position:absolute;
 	top: 370px;
-	left: 65%;
+	left: 32%;
 	
+}
+
+.widget {
+    position: absolute;
+    left: 51%;
+    top: 160px;
+    background-color: white;
+    text-align: center; 
+
 }
 
 .csgo {
@@ -198,5 +209,40 @@ h2 {
     
     .menuclosed {
         overflow: hidden;
+    }
+}
+
+/*_________________________________________________________________________________________________*/
+
+@media (max-width: 1040px) {
+    #calender {
+        height: 400px;
+        width: 500px;
+
+    }
+
+}
+
+@media (max-width: 860px) {
+    #calender {
+        height: 300px;
+        width: 400px;
+
+    }
+}
+
+@media (max-width: 750px) {
+    #calender {
+        height: 250px;
+        width: 350px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    #calender {
+        height: 200px;
+        width: 300px;
+
     }
 }
