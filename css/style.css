@@ -97,7 +97,13 @@ nav a {
 
 .title {
     color: white;
+	
+}
+
+.title_game {
+    color: white;
 	position: absolute;
+	
 }
 
 h2 {
@@ -136,7 +142,7 @@ h2 {
 
 }
 
-.csgo {
+.logo {
     
     text-align: center;
 	
