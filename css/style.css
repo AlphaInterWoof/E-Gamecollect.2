@@ -1,6 +1,6 @@
 body {
     background-image: url(../image/index/Matrix.jpg);
-    background-repeat: no-repeat;
+    
     background-attachment: fixed;
     background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -110,11 +110,15 @@ h2 {
     color: gray;
 }
 
+.content_i {
+	display: flex;
+	
+}
+
 .mainstart {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
     color: gray;
-    left: 5%;
     width: 50%;
     text-align: center;
 	
@@ -134,9 +138,7 @@ h2 {
 }
 
 .widget {
-    position: absolute;
-    left: 51%;
-    top: 160px;
+	
     background-color: white;
     text-align: center; 
 
@@ -222,8 +224,8 @@ h2 {
 
 @media (max-width: 1040px) {
     #calender {
-        height: 400px;
-        width: 500px;
+        height: 500px;
+        width: 400px;
 
     }
 
@@ -241,8 +243,8 @@ h2 {
 
 @media (max-width: 860px) {
     #calender {
-        height: 300px;
-        width: 400px;
+        height: 400px;
+        width: 300px;
 
     }
 
@@ -262,8 +264,8 @@ h2 {
 
 @media (max-width: 750px) {
     #calender {
-        height: 250px;
-        width: 350px;
+        height: 350px;
+        width: 250px;
 
     }
 
@@ -281,8 +283,8 @@ h2 {
 
 @media (max-width: 600px) {
     #calender {
-        height: 200px;
-        width: 300px;
+        height: 300px;
+        width: 200px;
 
     }
 
@@ -296,6 +298,24 @@ h2 {
 
     }
 
+}
+
+@media (min-device-width: 250px) and (max-width: 400px) {
+	#calender {
+		height: 200px;
+		width: 150px;
+		
+	}
+	
+	.yes {
+        left: 6%;
+
+    }
+
+    .no {
+        left: 24;
+
+    }
 }
 
 /*_________________________________________________________________________________________________*/
