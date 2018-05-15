@@ -173,14 +173,15 @@ h2 {
 .arrow_l {
 	position: absolute;
 	left: -15px;
-	
+	z-index: 1;
 		
 }
 
 .arrow_r {
 	position: absolute;
 	left: 340px;
-	
+    z-index: 1;
+    
 }
 
 #ig1 {
@@ -219,11 +220,25 @@ h2 {
 }
 
 .content_game {
+    background-color: white;
     position: relative;
-    right: 0%;
+    top: 100px;
+    left: 50%;
     width: 50%;
+    z-index: 1;
 
 }
+
+.gallery_bg {
+    position: absolute;
+    z-index: -1; 
+    top: 240px;
+    left: 0%;
+    
+}
+
+
+
 
 /*_________________________________________________________________________________________________*/
 
