@@ -1,17 +1,19 @@
 body {
     background-image: url(../image/index/Matrix.jpg);
-    background-attachment: fixed;
+    background-attachment: local, scroll;
     background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-repeat: no-repeat;
+	margin: 0;
    
 }
 
 #csgo {
     background-image: url(../image/csgo/cs_bg.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#gmod {
+	background-image: url(../image/gmod/Physgun_artwork.jpg);
 }
 
 @media (min-device-width:650px) and (min-width: 650px) and (max-width: 900px) {
@@ -167,19 +169,19 @@ h2 {
 
 .arrow {
 	position: absolute;
-	top: 350px;
+	top: 340px;
 }
 
 .arrow_l {
 	position: absolute;
-	left: -15px;
+	left: -12px;
 	z-index: 1;
 		
 }
 
 .arrow_r {
 	position: absolute;
-	left: 340px;
+	left: 355px;
     z-index: 1;
     
 }
@@ -222,8 +224,8 @@ h2 {
 .content_game {
     background-color: white;
     position: relative;
-    top: 100px;
-    left: 50%;
+    top: 40px;
+    left: 45%;
     width: 50%;
     z-index: 1;
 
@@ -278,7 +280,7 @@ h2 {
     }
 
     .no {
-        left: 30;
+        left: 30%;
 
     }
 
@@ -297,7 +299,7 @@ h2 {
     }
 
     .no {
-        left: 28;
+        left: 28%;
 
     }
 
@@ -318,7 +320,7 @@ h2 {
     }
 
     .no {
-        left: 26;
+        left: 26%;
 
     }
 
@@ -337,7 +339,7 @@ h2 {
     }
 
     .no {
-        left: 24;
+        left: 24%;
 
     }
 
@@ -356,7 +358,7 @@ h2 {
     }
 
     .no {
-        left: 24;
+        left: 24%;
 
     }
 }
