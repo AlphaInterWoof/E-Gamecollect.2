@@ -1,35 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Team Fortrest 2</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<header>
-    <h1 class="title_game"><a class="title_game" href="index.html">E-GameCollect</a></h1>
-</header>
-
-
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Games</a> 
-            <ul>
-                <li><a href="csgo.html">Counter-Strike: Global Offensive</a></li>
-                <li><a href="gmod.html">Garry's Mod</a></li>
-                <li><a href="gta5.html">Grand Theft Auto V</a></li>
-                <li><a href="rl.html">Rocket League</a></li>
-                <li><a href="tf2.html">Team Fortress 2</a></li>
-            </ul></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Team Fortress 2</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="tf2">
     
+    <!--_______________________________________________________________________________________________-->
+    
+    <header>
+        
+         <section class="logo">
+            
+            <a href="http://blog.counter-strike.net/"><img src="image/csgo/csgo.png" title="CS:GO Homesite" width="150" height="80"></a>
+            
+        </section>
+    
+        <h1 class="title_game"><a class="title_game" href="index.html">E-GameCollect</a></h1>
+    
+    </header>
+    
+    <!--_______________________________________________________________________________________________-->
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Games</a> 
+                <ul>
+                    <li><a href="csgo.html">Counter-Strike: Global Offensive</a></li>
+                    <li><a href="gmod.html">Garry's Mod</a></li>
+                    <li><a href="gta5.html">Grand Theft Auto V</a></li>
+                    <li><a href="rl.html">Rocket League</a></li>
+                    <li><a href="tf2.html">Team Fortress 2</a></li>
+                </ul></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        
+    </nav>
+    
+    <!--_______________________________________________________________________________________________-->
+     <div class="content_g">
+    
+        <section class="arrow">
+        
+               <div class="arrow_l" onClick="changeigm(-1)">
+                
+                <img id="left" src="image/All/image_part_001.png" width="60">
+                
+            </div>
+            
+            <div class="arrow_r" onClick="changeigm(1)">
+                
+                <img id="right" src="image/All/image_part_002.png" width="60">
+                
+            </div>
+            
+            </section>
+            
+    <!--_______________________________________________________________________________________________-->
+            
+        <section class="img-g">
+            
+            <div class="gallery">
+                
+                <video controls id="g-video" width="300" height="230">
+                    <source src="video/rl/rl.mp4" type="video/mp4">
+                </video>
+                
+                <img id="ig1" src="image/csgo/csgo rank.jpg" width="300" height="230">
+                
+                <img id="ig2" src="image/csgo/rqwoVxe.jpg" width="300" height="230">
+                
+                <img id="ig3" src="image/csgo/csgo-skins.png" width="300" height="230">
+                
+                <img id="ig4" src="image/csgo/knife.png" width="300" height="230">
+    
+                <img id="ig5" src="image/csgo/csgo burning house.jpg" width="300" height="230">
+    
+                <img id="ig6" src="image/csgo/csgo.jpg" width="300" height="230">
+                
+                <img id="ig7" src="image/csgo/sd000436_4_3.jpg" width="300" height="230">
+                
+            </div>
+            
+            
+            
+        </section>
+    
+            <div class="gallery_bg">
+    
+                <img id="g_bg" src="image/All/purple-galaxy-background-For-Desktop-Wallpaper.jpg" width="400" height="350">
+    
+            </div>
+    
+    <!--_______________________________________________________________________________________________-->
+    
+        <section class="content_game">
+    
+            <h1>About </h1>
+    
+            <p> 
+            <h4> Wikipedia</h4></p>
+    
+        </section>
+    
+    </div>   
 
 <script src="js/script.js"></script>
 
