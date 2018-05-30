@@ -16,6 +16,10 @@ body {
 	background-image: url(../image/gmod/Physgun_artwork.jpg);
 }
 
+#gta5 {
+    background-image: url(../image/gta5/bb88cec3170cf3296685814ee0738192.jpg)
+}
+
 @media (min-device-width:650px) and (min-width: 650px) and (max-width: 900px) {
     #pagecontent {
         display: flex;
